@@ -269,8 +269,8 @@
       }
       .gallery {
         display: grid;
-        grid-template-columns: 1.25fr 0.75fr 0.75fr;
-        grid-auto-rows: 230px;
+        grid-template-columns: 1.15fr 0.85fr 0.85fr;
+        grid-auto-rows: 190px;
         gap: 14px;
       }
       .gallery .photo {
@@ -281,11 +281,15 @@
         background: #eadfe8;
         box-shadow: 0 12px 30px #4a304015;
       }
-      .gallery .photo:first-child {
+      .gallery .photo.feature {
+        grid-column: span 2;
         grid-row: span 2;
       }
-      .gallery .photo:nth-child(4) {
-        grid-column: 2/4;
+      .gallery .photo.wide {
+        grid-column: span 2;
+      }
+      .gallery .photo.tall {
+        grid-row: span 2;
       }
       .gallery img {
         width: 100%;
@@ -398,11 +402,11 @@
           grid-template-columns: 1fr 1fr;
           grid-auto-rows: 180px;
         }
-        .gallery .photo:first-child {
-          grid-row: span 2;
-        }
-        .gallery .photo:nth-child(4) {
+        .gallery .photo.feature,
+        .gallery .photo.wide,
+        .gallery .photo.tall {
           grid-column: auto;
+          grid-row: auto;
         }
         form {
           padding: 25px;
@@ -517,12 +521,12 @@
       <h2 class="section-title">Our Moments</h2>
       <p class="intro">A few photographs from our journey.</p>
       <div class="gallery">
-        <div class="photo"><img src="photo1.jpg" alt="" /></div>
-        <div class="photo"><img src="photo2.jpg" alt="" /></div>
-        <div class="photo"><img src="photo3.jpg" alt="" /></div>
-        <div class="photo"><img src="photo4.jpg" alt="" /></div>
-        <div class="photo"><img src="photo5.jpg" alt="" /></div>
-        <div class="photo"><img src="photo6.jpg" alt="" /></div>
+        <div class="photo feature"><img src="photo1.jpg" alt="Couple memory 1" /></div>
+        <div class="photo tall"><img src="photo2.jpg" alt="Couple memory 2" /></div>
+        <div class="photo"><img src="photo3.jpg" alt="Couple memory 3" /></div>
+        <div class="photo wide"><img src="photo4.jpg" alt="Couple memory 4" /></div>
+        <div class="photo"><img src="photo5.jpg" alt="Couple memory 5" /></div>
+        <div class="photo"><img src="photo6.jpg" alt="Couple memory 6" /></div>
       </div>
     </section>
 
