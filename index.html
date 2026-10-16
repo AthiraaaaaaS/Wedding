@@ -344,7 +344,8 @@
         gap: 16px;
       }
       .g-feature {
-        grid-template-columns: 1fr;
+        grid-template-columns: 0.56fr 1.78fr;
+        align-items: start;
       }
       .g-portraits {
         grid-template-columns: 1fr 1fr;
@@ -386,7 +387,10 @@
         outline: 2px solid var(--gold);
         outline-offset: 3px;
       }
-      .g-feature .shot {
+      .g-feature .ph1 {
+        aspect-ratio: 9/16;
+      }
+      .g-feature .ph2 {
         aspect-ratio: 16/9;
       }
       .g-portraits .shot {
@@ -397,6 +401,9 @@
       }
       .g-pair .ph7 {
         aspect-ratio: 477/367;
+      }
+      .pos-1 {
+        object-position: center 46%;
       }
       .pos-2 {
         object-position: center 42%;
@@ -677,7 +684,13 @@
         .g-pair {
           gap: 10px;
         }
-        .g-feature .shot {
+        .g-feature {
+          grid-template-columns: 1fr;
+        }
+        .g-feature .ph1 {
+          aspect-ratio: 3/4;
+        }
+        .g-feature .ph2 {
           aspect-ratio: 3/2;
         }
         .g-pair {
@@ -835,6 +848,19 @@
       </div>
       <div class="gallery-mosaic">
         <div class="g-feature">
+          <button
+            class="shot ph1"
+            type="button"
+            data-src="photo1.jpg"
+            aria-label="Athira and Anoop sharing flowers beneath a banyan tree"
+          >
+            <img
+              src="photo1.jpg"
+              alt="Athira and Anoop sharing flowers beneath a banyan tree"
+              loading="lazy"
+              class="pos-1"
+            />
+          </button>
           <button
             class="shot ph2"
             type="button"
