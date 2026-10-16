@@ -1,0 +1,1201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Athira & Anoop | Our Wedding</title>
+
+    <!-- WhatsApp / social sharing preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Athira &amp; Anoop | Our Wedding" />
+    <meta property="og:description" content="Join Athira and Anoop as they begin their forever." />
+    <meta property="og:url" content="https://athiraaaaaas.github.io/Wedding/" />
+    <meta property="og:image" content="https://athiraaaaaas.github.io/Wedding/whatsapp-preview.jpg" />
+    <meta property="og:image:secure_url" content="https://athiraaaaaas.github.io/Wedding/whatsapp-preview.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Athira &amp; Anoop | Our Wedding" />
+    <meta name="twitter:description" content="Join Athira and Anoop as they begin their forever." />
+    <meta name="twitter:image" content="https://athiraaaaaas.github.io/Wedding/whatsapp-preview.jpg" />
+
+    <meta
+      name="description"
+      content="Join Athira and Anoop as they begin their forever."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&family=Allura&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ink: #28382c;
+        --muted: #66685e;
+        --green: #344a38;
+        --sage: #dce2d2;
+        --cream: #fbf7ee;
+        --rose: #e8d4d1;
+        --gold: #b18a52;
+        --white: #fffdf8;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 85px;
+      }
+      body {
+        margin: 0;
+        background: var(--cream);
+        color: var(--ink);
+        font-family: "DM Sans", sans-serif;
+        line-height: 1.65;
+      }
+      a {
+        color: inherit;
+      }
+      nav {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: clamp(12px, 3vw, 36px);
+        padding: 17px 16px;
+        background: #fbf7eef0;
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid #344a3818;
+      }
+      nav a {
+        text-decoration: none;
+        font-size: 11px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      nav a:hover {
+        color: #9a6c70;
+      }
+      .nav-cta {
+        padding: 9px 15px;
+        border-radius: 30px;
+        background: var(--green);
+        color: white;
+      }
+      .hero {
+        min-height: calc(100svh - 62px);
+        display: grid;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        background: #2a1612;
+      }
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          90deg,
+          rgba(42, 18, 14, 0.42) 0%,
+          rgba(42, 18, 14, 0.16) 34%,
+          rgba(42, 18, 14, 0) 58%
+        );
+        pointer-events: none;
+      }
+      .hero-copy {
+        z-index: 1;
+        max-width: 560px;
+        padding: clamp(36px, 7vh, 88px) clamp(28px, 7vw, 92px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+        color: #fffaf4;
+      }
+      .eyebrow,
+      .kicker {
+        font-size: 10px;
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+        color: #856d55;
+      }
+      .hero .eyebrow {
+        color: #fff8ee;
+        letter-spacing: 0.34em;
+        font-size: 11px;
+        text-shadow: 0 2px 12px rgba(30, 12, 8, 0.35);
+      }
+      .hero-rule {
+        width: 74px;
+        height: 1px;
+        background: #f0e2c4;
+        margin: 18px 0 20px;
+        opacity: 0.9;
+      }
+      .hero h1 {
+        font-family: "Cormorant Garamond", serif;
+        font-size: clamp(64px, 7.4vw, 108px);
+        line-height: 0.82;
+        font-weight: 500;
+        letter-spacing: -0.03em;
+        margin: 0;
+        color: #fffaf4;
+        text-shadow: 0 2px 18px rgba(30, 12, 8, 0.28);
+      }
+      .hero h1 span {
+        display: block;
+        font-family: "Allura", cursive;
+        font-size: 0.58em;
+        color: #e4c27a;
+        margin: 6px 0 2px 8px;
+        text-shadow: none;
+      }
+      .hero .intro {
+        max-width: 360px;
+        font-family: "Cormorant Garamond", serif;
+        font-size: clamp(20px, 2.1vw, 26px);
+        line-height: 1.35;
+        margin: 8px 0 0;
+        color: #fffaf4;
+        text-shadow: 0 2px 12px rgba(30, 12, 8, 0.3);
+      }
+      .hero-date {
+        border: 0;
+        padding: 0;
+        margin: 0;
+        font-family: "Cormorant Garamond", serif;
+        font-size: clamp(26px, 2.6vw, 36px);
+        letter-spacing: 0.18em;
+        color: #fffaf4;
+        text-shadow: 0 2px 12px rgba(30, 12, 8, 0.3);
+      }
+      .hero-date small {
+        display: block;
+        font:
+          11px "DM Sans",
+          sans-serif;
+        letter-spacing: 0.28em;
+        margin-top: 8px;
+        color: #f6efe4;
+      }
+      .hero #countdown {
+        margin: 16px 0 0;
+        color: #f6efe4;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-shadow: 0 2px 10px rgba(30, 12, 8, 0.35);
+      }
+      .hero-image {
+        margin: 0;
+        position: absolute;
+        inset: 0;
+        min-height: 0;
+        background: #2a1612;
+        overflow: hidden;
+      }
+      .hero-image img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+        display: block;
+      }
+      .story {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: clamp(24px, 6vw, 80px);
+        padding: 100px max(7vw, 22px);
+        background: var(--cream);
+      }
+      .story-photo {
+        margin: 0;
+        justify-self: center;
+        width: min(100%, 440px);
+        aspect-ratio: 3/4;
+        box-shadow: 18px 18px 0 var(--rose);
+        border-radius: 3px;
+        overflow: hidden;
+        background: var(--sage);
+      }
+      .story-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 28%;
+        display: block;
+      }
+      .script-title {
+        font-family: "Allura", cursive;
+        font-size: clamp(42px, 5vw, 68px);
+        font-weight: 400;
+        line-height: 1.1;
+        margin: 8px 0;
+        color: #405543;
+      }
+      .story-copy p {
+        max-width: 470px;
+        color: var(--muted);
+      }
+      .small-rule {
+        color: var(--gold);
+        letter-spacing: 0.5em;
+      }
+      .events {
+        padding: 76px max(4vw, 18px) 85px;
+        background:
+          linear-gradient(#293a2cce, #293a2cce),
+          url("https://images.unsplash.com/photo-1507504031003-b417219a0face?auto=format&fit=crop&w=1800&q=80")
+            center/cover fixed;
+        color: white;
+      }
+      .section-head {
+        text-align: center;
+        margin: 0 auto 35px;
+      }
+      .section-head h2 {
+        font:
+          500 clamp(38px, 5vw, 58px)/1.1 "Cormorant Garamond",
+          serif;
+        margin: 8px 0;
+      }
+      .section-head p {
+        margin: 0;
+        color: inherit;
+        opacity: 0.85;
+      }
+      .event-grid {
+        max-width: 1120px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 22px;
+      }
+      .event-card {
+        display: grid;
+        grid-template-columns: 0.85fr 1.15fr;
+        min-height: 270px;
+        background: #fffaf1;
+        color: var(--ink);
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 0 16px 35px #15231735;
+      }
+      .event-photo {
+        background-size: cover;
+        background-position: center;
+        min-height: 250px;
+      }
+      .temple {
+        background-image: url("guruvayur.jpg");
+        background-position: 68% 38%;
+      }
+      .beach {
+        background-image: url("https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80");
+      }
+      .event-info {
+        padding: 24px 22px;
+        align-self: center;
+      }
+      .event-info h3 {
+        font:
+          italic 36px "Cormorant Garamond",
+          serif;
+        margin: 0 0 12px;
+      }
+      .event-info p {
+        font-size: 13px;
+        margin: 8px 0;
+        color: #55594f;
+      }
+      .pill {
+        display: inline-block;
+        background: var(--green);
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        padding: 10px 18px;
+        font-size: 11px;
+        letter-spacing: 0.06em;
+        margin-top: 12px;
+      }
+      .travel {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        background: #e7d7d0;
+      }
+      .travel-image {
+        min-height: 330px;
+        background: url("https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=85")
+          center/cover;
+      }
+      .travel-copy {
+        padding: 50px clamp(24px, 6vw, 80px);
+      }
+      .travel-copy p {
+        color: #5e6258;
+        max-width: 380px;
+      }
+      .gallery {
+        padding: 88px 22px 96px;
+        background: var(--cream);
+      }
+      .gallery-mosaic {
+        max-width: 1080px;
+        margin: 42px auto 0;
+        display: grid;
+        gap: 16px;
+      }
+      .g-feature,
+      .g-portraits,
+      .g-pair {
+        display: grid;
+        gap: 16px;
+      }
+      .g-feature {
+        grid-template-columns: 0.56fr 1.78fr;
+        align-items: start;
+      }
+      .g-portraits {
+        grid-template-columns: 1fr 1fr;
+      }
+      .g-pair {
+        grid-template-columns: minmax(200px, 360px) minmax(240px, 440px);
+        justify-content: center;
+        align-items: start;
+        gap: 16px;
+      }
+      .shot {
+        appearance: none;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        background: #e6e0d2;
+        cursor: zoom-in;
+        overflow: hidden;
+        border-radius: 4px;
+        position: relative;
+        box-shadow:
+          0 0 0 1px #b18a5233,
+          0 16px 34px #28382c14;
+        min-width: 0;
+        width: 100%;
+      }
+      .shot img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.65s ease;
+      }
+      .shot:hover img,
+      .shot:focus-visible img {
+        transform: scale(1.04);
+      }
+      .shot:focus-visible {
+        outline: 2px solid var(--gold);
+        outline-offset: 3px;
+      }
+      .g-feature .ph1 {
+        aspect-ratio: 9/16;
+      }
+      .g-feature .ph2 {
+        aspect-ratio: 16/9;
+      }
+      .g-portraits .shot {
+        aspect-ratio: 3/4;
+      }
+      .g-pair .ph3 {
+        aspect-ratio: 3/4;
+      }
+      .g-pair .ph7 {
+        aspect-ratio: 477/367;
+      }
+      .pos-1 {
+        object-position: center 46%;
+      }
+      .pos-2 {
+        object-position: center 42%;
+      }
+      .pos-3 {
+        object-position: center 18%;
+      }
+      .pos-4 {
+        object-position: center 34%;
+      }
+      .pos-5 {
+        object-position: center 70%;
+      }
+      .pos-6 {
+        object-position: center 32%;
+      }
+      .pos-7 {
+        object-position: 46% 50%;
+        transform: scale(1.1);
+      }
+      .ph7:hover img,
+      .ph7:focus-visible img {
+        transform: scale(1.14);
+      }
+      .lightbox {
+        position: fixed;
+        inset: 0;
+        z-index: 40;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background: #1b2820eb;
+        backdrop-filter: blur(10px);
+        padding: 28px 76px;
+      }
+      .lightbox.open {
+        display: flex;
+      }
+      .lightbox img {
+        max-width: min(980px, 100%);
+        max-height: 84vh;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        border-radius: 3px;
+        box-shadow: 0 24px 70px #00000066;
+      }
+      .lb-btn {
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        border: 1px solid #fff6;
+        background: #fffdf818;
+        color: #fffdf8;
+        font:
+          300 30px/1 "Cormorant Garamond",
+          serif;
+        cursor: pointer;
+      }
+      .lb-btn:hover {
+        background: #fffdf830;
+      }
+      .lb-prev {
+        left: 18px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      .lb-next {
+        right: 18px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      .lb-close {
+        top: 16px;
+        right: 16px;
+        font-size: 28px;
+      }
+      .lb-count {
+        position: absolute;
+        bottom: 18px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: #f6f1e6;
+        letter-spacing: 0.24em;
+        font-size: 11px;
+      }
+      .rsvp {
+        padding: 80px 20px;
+        background:
+          linear-gradient(#e7d6d2ed, #e7d6d2ed),
+          url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=1400&q=80")
+            center/cover;
+        text-align: center;
+      }
+      .rsvp .section-head {
+        margin-bottom: 20px;
+      }
+      .rsvp form {
+        max-width: 640px;
+        margin: 25px auto 0;
+        padding: 30px;
+        background: #fffdf4e8;
+        text-align: left;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        box-shadow: 0 12px 35px #2b3d2c12;
+      }
+      .rsvp label {
+        display: block;
+        font-size: 13px;
+        margin: 14px 0 6px;
+      }
+      .rsvp input,
+      .rsvp select,
+      .rsvp textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #d5d4c7;
+        border-radius: 3px;
+        background: #fffdf8;
+        font:
+          14px "DM Sans",
+          sans-serif;
+        color: var(--ink);
+      }
+      .choice {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .choice label {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .choice input {
+        width: auto;
+        accent-color: var(--green);
+      }
+      .meal-counts {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px 28px;
+        margin-top: 14px;
+      }
+      .meal-counts > div {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .meal-counts label {
+        margin: 0;
+      }
+      .rsvp .meal-counts input {
+        width: 84px;
+        flex: 0 0 84px;
+        padding: 10px 8px;
+        text-align: center;
+      }
+      .rsvp button {
+        border: 0;
+        cursor: pointer;
+        font:
+          12px "DM Sans",
+          sans-serif;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        min-width: 168px;
+        min-height: 38px;
+      }
+      .rsvp button:disabled {
+        cursor: wait;
+        opacity: 0.88;
+      }
+      .rsvp button.is-done {
+        cursor: default;
+        opacity: 1;
+      }
+      .btn-spinner {
+        width: 14px;
+        height: 14px;
+        border: 2px solid #ffffff66;
+        border-top-color: #fff;
+        border-radius: 50%;
+        display: none;
+        animation: rsvp-spin 0.7s linear infinite;
+      }
+      .rsvp button.is-sending .btn-spinner {
+        display: block;
+      }
+      @keyframes rsvp-spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .success {
+        display: none;
+        background: #e2eadc;
+        padding: 14px;
+        margin-top: 15px;
+      }
+      footer {
+        text-align: center;
+        background: #28382c;
+        color: #f8f1e5;
+        padding: 48px 20px;
+      }
+      footer .script-title {
+        color: #e5c9a4;
+        margin: 0;
+      }
+      footer p {
+        font-size: 12px;
+        letter-spacing: 0.08em;
+      }
+      @media (max-width: 760px) {
+        nav {
+          gap: 13px;
+          flex-wrap: wrap;
+          padding: 12px 8px;
+        }
+        nav a {
+          font-size: 9px;
+        }
+        .hero {
+          min-height: calc(100svh - 96px);
+          align-items: end;
+        }
+        .hero::after {
+          background: linear-gradient(
+            180deg,
+            rgba(42, 18, 14, 0.05) 0%,
+            rgba(42, 18, 14, 0.28) 38%,
+            rgba(42, 18, 14, 0.72) 100%
+          );
+        }
+        .hero-copy {
+          max-width: none;
+          padding: 28px 24px 40px;
+        }
+        .hero h1 {
+          font-size: 68px;
+        }
+        .hero .intro {
+          font-size: 22px;
+        }
+        .story,
+        .travel {
+          grid-template-columns: 1fr;
+        }
+        .story {
+          padding: 65px 25px;
+        }
+        .story-photo {
+          width: min(100%, 340px);
+          order: 2;
+          box-shadow: 12px 12px 0 var(--rose);
+        }
+        .events {
+          padding: 60px 15px;
+          background-attachment: scroll;
+        }
+        .event-grid {
+          grid-template-columns: 1fr;
+        }
+        .event-card {
+          grid-template-columns: 0.8fr 1.2fr;
+          min-height: 230px;
+        }
+        .event-photo {
+          min-height: 230px;
+        }
+        .event-info {
+          padding: 16px 13px;
+        }
+        .event-info h3 {
+          font-size: 29px;
+        }
+        .event-info p {
+          font-size: 12px;
+        }
+        .travel-image {
+          min-height: 240px;
+        }
+        .travel-copy {
+          padding: 35px 25px;
+        }
+        .gallery {
+          padding: 64px 16px 72px;
+        }
+        .gallery-mosaic,
+        .g-feature,
+        .g-portraits,
+        .g-pair {
+          gap: 10px;
+        }
+        .g-feature {
+          grid-template-columns: 1fr;
+        }
+        .g-feature .ph1 {
+          aspect-ratio: 3/4;
+        }
+        .g-feature .ph2 {
+          aspect-ratio: 3/2;
+        }
+        .g-pair {
+          grid-template-columns: 1fr 1fr;
+        }
+        .g-pair .ph7 {
+          aspect-ratio: 4/3;
+        }
+        .lightbox {
+          padding: 64px 16px 48px;
+        }
+        .lb-prev {
+          left: 8px;
+        }
+        .lb-next {
+          right: 8px;
+        }
+        .rsvp form {
+          padding: 20px;
+        }
+      }
+      @media (max-width: 390px) {
+        nav {
+          gap: 9px;
+        }
+        .nav-cta {
+          padding: 7px 10px;
+        }
+        .event-card {
+          grid-template-columns: 1fr;
+        }
+        .event-photo {
+          min-height: 180px;
+        }
+        .hero h1 {
+          font-size: 58px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#home">Home</a><a href="#story">Our Story</a
+      ><a href="#events">Wedding Days</a><a href="#travel">Travel</a
+      ><a href="#gallery">Photos</a
+      ><a class="nav-cta" href="#rsvp">Tell Us You're Coming</a>
+    </nav>
+    <header class="hero" id="home">
+      <figure class="hero-image">
+        <img
+          src="frontphoto.jpeg"
+          alt="Athira and Anoop in traditional wedding attire"
+        />
+      </figure>
+      <div class="hero-copy">
+        <div class="eyebrow">Together with our families</div>
+        <div class="hero-rule"></div>
+        <h1>Athira <span>&</span> Anoop</h1>
+        <p class="intro">
+          We’re getting married! Join us as we begin this new chapter with your
+          love and blessings.
+        </p>
+        <div class="hero-rule"></div>
+        <div class="hero-date">06 DEC 2026<small>GURUVAYUR, KERALA</small></div>
+        <p id="countdown">Counting down to our wedding…</p>
+      </div>
+    </header>
+    <section class="story" id="story">
+      <figure class="story-photo">
+        <img src="photo4.jpg" alt="A close portrait of Athira and Anoop" />
+      </figure>
+      <div class="story-copy">
+        <div class="kicker">A little about us</div>
+        <h2 class="script-title">From Friends to Forever</h2>
+        <div class="small-rule">— ♥ —</div>
+        <p>
+          What started as a friendship in 2018 slowly turned into a beautiful
+          journey of love in 2023. Now, we’re excited to begin our forever
+          together, and we would love to celebrate with you.
+        </p>
+      </div>
+    </section>
+    <section class="events" id="events">
+      <div class="section-head">
+        <div class="kicker" style="color: #e2c69b">Save these special days</div>
+        <h2>Our Wedding Days</h2>
+        <p>Two celebrations, and so many memories to make.</p>
+      </div>
+      <div class="event-grid">
+        <article class="event-card">
+          <div
+            class="event-photo temple"
+            role="img"
+            aria-label="Guruvayur Temple"
+          ></div>
+          <div class="event-info">
+            <h3>The Wedding</h3>
+            <p>♡ Sunday, 06 December 2026</p>
+            <p>♡ Morning ceremony</p>
+            <p>♡ Guruvayur Temple, Guruvayur</p>
+            <a
+              class="pill"
+              href="https://www.google.com/maps/search/?api=1&query=Guruvayur+Temple"
+              target="_blank"
+              rel="noreferrer"
+              >Get Directions ↗</a
+            >
+          </div>
+        </article>
+        <article class="event-card">
+          <div
+            class="event-photo beach"
+            role="img"
+            aria-label="Kerala beach at sunset"
+          ></div>
+          <div class="event-info">
+            <h3>The Reception</h3>
+            <p>♡ Saturday, 12 December 2026</p>
+            <p>♡ 4:00 PM – 9:00 PM</p>
+            <p>♡ Belhaven Beach, Puthenthopp, Trivandrum</p>
+            <a
+              class="pill"
+              href="https://share.google/GZ6sXJnVGjbWeedsv"
+              target="_blank"
+              rel="noreferrer"
+              >Get Directions ↗</a
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="travel" id="travel">
+      <div class="travel-copy">
+        <div class="kicker">Coming to celebrate?</div>
+        <h2 class="script-title">We’ll Help You Find Us</h2>
+        <p>
+          Need directions to either celebration? Tap below to open the location
+          on your phone and plan your journey.
+        </p>
+        <a
+          class="pill"
+          href="https://www.google.com/maps/search/?api=1&query=Belhaven+Beach+Puthenthopp+Trivandrum"
+          target="_blank"
+          rel="noreferrer"
+          >Find the Reception ↗</a
+        >
+      </div>
+      <div class="travel-image" role="img" aria-label="Kerala coastline"></div>
+    </section>
+    <section class="gallery" id="gallery">
+      <div class="section-head">
+        <div class="kicker">Little moments, big memories</div>
+        <h2 class="script-title">Our Favourite Photos</h2>
+        <p>Some memories from our journey so far.</p>
+      </div>
+      <div class="gallery-mosaic">
+        <div class="g-feature">
+          <button
+            class="shot ph1"
+            type="button"
+            data-src="photo1.jpg"
+            aria-label="Athira and Anoop sharing flowers beneath a banyan tree"
+          >
+            <img
+              src="photo1.jpg"
+              alt="Athira and Anoop sharing flowers beneath a banyan tree"
+              loading="lazy"
+              class="pos-1"
+            />
+          </button>
+          <button
+            class="shot ph2"
+            type="button"
+            data-src="photo2.jpg"
+            aria-label="Athira and Anoop smiling together by the trees"
+          >
+            <img
+              src="photo2.jpg"
+              alt="Athira and Anoop smiling together by the trees"
+              loading="lazy"
+              class="pos-2"
+            />
+          </button>
+        </div>
+        <div class="g-portraits">
+          <button
+            class="shot ph6"
+            type="button"
+            data-src="photo6.jpg"
+            aria-label="Athira and Anoop looking at one another"
+          >
+            <img
+              src="photo6.jpg"
+              alt="Athira and Anoop looking at one another"
+              loading="lazy"
+              class="pos-6"
+            /></button
+          ><button
+            class="shot ph5"
+            type="button"
+            data-src="photo5.jpg"
+            aria-label="Athira and Anoop seated together before a journey"
+          >
+            <img
+              src="photo5.jpg"
+              alt="Athira and Anoop seated together before a journey"
+              loading="lazy"
+              class="pos-5"
+            />
+          </button>
+        </div>
+        <div class="g-pair">
+          <button
+            class="shot ph3"
+            type="button"
+            data-src="photo3.jpg"
+            aria-label="Athira and Anoop with their dog"
+          >
+            <img
+              src="photo3.jpg"
+              alt="Athira and Anoop with their dog"
+              loading="lazy"
+              class="pos-3"
+            /></button
+          ><button
+            class="shot ph7"
+            type="button"
+            data-src="photo7.jpg"
+            aria-label="Athira and Anoop laughing together over a meal"
+          >
+            <img
+              src="photo7.jpg"
+              alt="Athira and Anoop laughing together over a meal"
+              loading="lazy"
+              class="pos-7"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lb-btn lb-close" type="button" aria-label="Close photo">
+        ×</button
+      ><button class="lb-btn lb-prev" type="button" aria-label="Previous photo">
+        ‹</button
+      ><img id="lbImg" alt="" /><button
+        class="lb-btn lb-next"
+        type="button"
+        aria-label="Next photo"
+      >
+        ›
+      </button>
+      <div class="lb-count" id="lbCount"></div>
+    </div>
+    <section class="rsvp" id="rsvp">
+      <div class="section-head">
+        <div class="kicker">A little reply from you</div>
+        <h2 class="script-title">Will You Celebrate With Us?</h2>
+        <p>
+          Your presence would mean the world to us. Please let us know if you’ll
+          be joining.
+        </p>
+      </div>
+      <form id="rsvpForm">
+        <label for="guest-name">Your name *</label
+        ><input
+          id="guest-name"
+          name="name"
+          required
+          placeholder="Enter your name"
+        /><label for="phone">Phone number (optional)</label
+        ><input
+          id="phone"
+          name="phone"
+          type="tel"
+          placeholder="Your phone number"
+        /><label>Can you join us for the wedding?</label>
+        <div class="choice">
+          <label
+            ><input type="radio" name="wedding" value="Yes" required /> Yes, we
+            can</label
+          ><label
+            ><input type="radio" name="wedding" value="No" /> Sorry, we
+            can’t</label
+          >
+        </div>
+        <label>Can you join us for the reception?</label>
+        <div class="choice">
+          <label
+            ><input type="radio" name="reception" value="Yes" required /> Yes,
+            we can</label
+          ><label
+            ><input type="radio" name="reception" value="No" /> Sorry, we
+            can’t</label
+          >
+        </div>
+        <label for="count">How many people will join us on reception? *</label
+        ><input
+          id="count"
+          name="count"
+          type="number"
+          min="0"
+          max="50"
+          required
+          placeholder="Number of guests"
+        />
+        <div class="meal-counts">
+          <div>
+            <label for="veg">No of Veg guests?</label
+            ><input
+              id="veg"
+              name="veg"
+              type="number"
+              min="0"
+              max="50"
+              required
+              placeholder="0"
+            />
+          </div>
+          <div>
+            <label for="nonveg">No of Non-veg guests?</label
+            ><input
+              id="nonveg"
+              name="nonveg"
+              type="number"
+              min="0"
+              max="50"
+              required
+              placeholder="0"
+            />
+          </div>
+        </div>
+        <label for="note">A note for us (optional)</label
+        ><textarea
+          id="note"
+          name="note"
+          rows="3"
+          placeholder="Write a little message"
+        ></textarea
+        ><button class="pill" id="rsvpSubmit" type="submit">
+          <span class="btn-spinner" aria-hidden="true"></span
+          ><span class="btn-label">Send My Reply ♥</span>
+        </button>
+        <div class="success" id="success">
+          Thank you for letting us know. We can’t wait to celebrate with you! ♥
+        </div>
+      </form>
+    </section>
+    <footer>
+      <div class="script-title">With love,</div>
+      <h2
+        style="
+          font:
+            500 42px &quot;Cormorant Garamond&quot;,
+            serif;
+          margin: 4px 0;
+        "
+      >
+        Athira & Anoop
+      </h2>
+      <p>06 DECEMBER 2026 · GURUVAYUR, KERALA</p>
+      <p>We can’t wait to celebrate with you.</p>
+    </footer>
+    <script>
+      const countdownEl = document.getElementById("countdown");
+      const weddingDate = new Date("2026-12-06T00:00:00+05:30").getTime();
+      function updateCountdown() {
+        const now = Date.now(),
+          d = weddingDate - now;
+        if (d <= 0) {
+          countdownEl.textContent = "Our wedding day is here ❤️";
+          return;
+        }
+        const days = Math.floor(d / 86400000);
+        const hours = Math.floor((d % 86400000) / 3600000);
+        const mins = Math.floor((d % 3600000) / 60000);
+        countdownEl.textContent = `${days} days · ${hours} hours · ${mins} minutes to go`;
+      }
+      updateCountdown();
+      setInterval(updateCountdown, 60000);
+
+      const SCRIPT_URL =
+        "https://script.google.com/macros/s/AKfycbyO-WN0Gt0JBOknfXbgGO4Dhap-SuLwBfrXg80Oqs2ZsnDgJLdlfs0zAf4ScEjIyj6l/exec";
+      document
+        .getElementById("rsvpForm")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+          const form = e.target;
+          const submitBtn = document.getElementById("rsvpSubmit");
+          const label = submitBtn.querySelector(".btn-label");
+          if (submitBtn.disabled) return;
+          if (SCRIPT_URL.includes("PASTE_")) {
+            alert(
+              "Sorry, your reply could not be sent just now. Please try again later.",
+            );
+            return;
+          }
+          const data = Object.fromEntries(new FormData(form).entries());
+          submitBtn.disabled = true;
+          submitBtn.classList.add("is-sending");
+          submitBtn.setAttribute("aria-busy", "true");
+          label.textContent = "Sending…";
+          try {
+            await fetch(SCRIPT_URL, {
+              method: "POST",
+              mode: "no-cors",
+              headers: { "Content-Type": "text/plain;charset=utf-8" },
+              body: JSON.stringify(data),
+            });
+            form.querySelector(".success").style.display = "block";
+            form.reset();
+            submitBtn.classList.remove("is-sending");
+            submitBtn.classList.add("is-done");
+            submitBtn.setAttribute("aria-busy", "false");
+            label.textContent = "Reply sent ♥";
+          } catch (err) {
+            submitBtn.disabled = false;
+            submitBtn.classList.remove("is-sending");
+            submitBtn.setAttribute("aria-busy", "false");
+            label.textContent = "Send My Reply ♥";
+            alert("Unable to submit right now. Please try again.");
+          }
+        });
+
+      const shots = [...document.querySelectorAll(".shot")];
+      const lightbox = document.getElementById("lightbox");
+      const lbImg = document.getElementById("lbImg");
+      const lbCount = document.getElementById("lbCount");
+      let lbIndex = 0;
+
+      function showPhoto(index) {
+        lbIndex = (index + shots.length) % shots.length;
+        const shot = shots[lbIndex];
+        lbImg.src = shot.dataset.src;
+        lbImg.alt = shot.querySelector("img").alt;
+        lbCount.textContent = lbIndex + 1 + "  /  " + shots.length;
+        lightbox.classList.add("open");
+        lightbox.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+      }
+
+      function closePhoto() {
+        lightbox.classList.remove("open");
+        lightbox.setAttribute("aria-hidden", "true");
+        document.body.style.overflow = "";
+      }
+
+      shots.forEach((shot, index) => {
+        shot.addEventListener("click", () => showPhoto(index));
+      });
+      lightbox.querySelector(".lb-close").addEventListener("click", closePhoto);
+      lightbox
+        .querySelector(".lb-prev")
+        .addEventListener("click", () => showPhoto(lbIndex - 1));
+      lightbox
+        .querySelector(".lb-next")
+        .addEventListener("click", () => showPhoto(lbIndex + 1));
+      lightbox.addEventListener("click", (event) => {
+        if (event.target === lightbox) closePhoto();
+      });
+      document.addEventListener("keydown", (event) => {
+        if (!lightbox.classList.contains("open")) return;
+        if (event.key === "Escape") closePhoto();
+        if (event.key === "ArrowRight") showPhoto(lbIndex + 1);
+        if (event.key === "ArrowLeft") showPhoto(lbIndex - 1);
+      });
+    </script>
+  </body>
+</html>
